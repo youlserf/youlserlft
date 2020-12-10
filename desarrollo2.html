@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ejercicio 02</h1>
+    <script>
+        let num,hij,a,b,c,d,v1,v2,v3,v4,v5,v6,v7,v8,v9;
+        a=2350*0.15
+        b=2000*0.15
+        c=1850*0.10
+        d=1500*0.10
+            hij=prompt("ingrese numero de hijos: ");
+            num=prompt("ingresar el sueldo: ");
+            
+            if(hij<=3)
+            {
+                v1=hij*25;
+                alert("su bono por hijos es de: "+v1)
+            }
+            if(hij>3)
+            {
+                v2=hij-3;
+                v3=75+(10*v2);
+                alert("su bono por hijos es de: "+v3)
+            }
+            if(num<=1500)
+            {
+                v4=num*0.10;
+                v5=num+v4;
+                alert("su sueldo mas la bonificación es de: "+v5)
+            }
+            if(num>1500  && num<=1850)
+            {
+                v6=num*0.10;
+                v7=num+v6;
+                alert("su sueldo mas la bonificación es de: "+v7)
+            }
+            if(num>1850 && num<=2000)
+            {
+                v8=num*0.15;
+                v9=num+v8;
+                alert("su sueldo mas la bonificación es de: "+v9)
+            }
+            if(num>2000)
+            {
+                v10=num*0.15;
+                v11=num+v10;
+                alert("su sueldo mas la bonificación es de: "+v11)
+            }
+
+
+            
+            
+    </script>
+</body>
+</html>
